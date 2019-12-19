@@ -4,39 +4,49 @@
 }
 
 body {
-    background-color: RGB(95, 158, 160);
+    background-color: rgba(95, 158, 160);
     color: white;
 }
 
+.content {
+    position: relative;
+    width: 400px;
+    top: 100px;
+    margin: 0 auto;
+    background-color: rgba(224, 222, 222, 0.308);
+    border-radius: 6px;
+}
+
+h1,
 div {
+    padding: 10px;
     text-align: center;
-    margin: 10px;
 }
 
 input {
-    width: 200px;
+    width: 150px;
     height: 30px;
+    padding-left: 30px;
     border: 1px solid white;
-    padding-left: 50px;
 }
 
 .username {
     background: url("../image/user.png") no-repeat left;
-    background-position-x: 10px;
-    background-size: 10%;
+    background-size: 9%;
 }
 
 .password {
     background: url("../image/password.png") no-repeat left;
-    background-position-x: 10px;
-    background-size: 10%;
+    background-size: 9%;
 }
 
 button {
-    width: 100px;
+    width: 80px;
     height: 30px;
-    background-color: RGB(234, 140, 55);
+    margin-bottom: 10px;
     border: hidden;
+    border-radius: 6px;
     font-size: 15px;
     color: white;
+    background-color: rgba(234, 140, 55);
 }
