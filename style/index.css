@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    background-color: RGB(95, 158, 160);
+    color: white;
+}
+
 div {
     text-align: center;
     margin: 10px;
@@ -11,16 +16,27 @@ div {
 input {
     width: 200px;
     height: 30px;
+    border: 1px solid white;
+    padding-left: 50px;
 }
 
-.username {}
+.username {
+    background: url("../image/user.png") no-repeat left;
+    background-position-x: 10px;
+    background-size: 10%;
+}
 
-.password {}
+.password {
+    background: url("../image/password.png") no-repeat left;
+    background-position-x: 10px;
+    background-size: 10%;
+}
 
 button {
     width: 100px;
     height: 30px;
-    background-color: darksalmon;
+    background-color: RGB(234, 140, 55);
     border: hidden;
     font-size: 15px;
+    color: white;
 }
