@@ -7,24 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UserLogin</title>
     <link rel="stylesheet" type="text/css" href="./style/index.css">
-    <script src="index.js"></script>
 </head>
 
 <body>
-    <div class="content">
+    <div>
         <form>
             <h1>Welcome</h1>
             <div>
-                <input class="username" type="text" name="username" id="username" placeholder="请输入用户名">
+                <input class="username" type="text" name="username" placeholder="请输入用户名" />
             </div>
             <div>
-                <input class="password" type="password" name="password" id="password" placeholder="请输入密码">
+                <input class="password" type="password" name="password" placeholder="请输入密码" />
             </div>
             <div class="button">
-                <button id="login" type="button">登 录</button>
+                <button id="login" type="button" onclick="userLogin()">登 录</button>
             </div>
         </form>
     </div>
 </body>
+<script src="index.js"></script>
 
 </html>
